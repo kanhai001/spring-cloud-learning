@@ -13,7 +13,6 @@
 - cloud-zuul-gateway 服务网关
 
 
-
 ### 项目统一依赖包
 - parent 统一配置依赖parent
 
@@ -24,8 +23,9 @@
 ###### 如： cloud-simple-service 
 
 * 1).先定义项目模板；
-     
+     ![strcture](doc/img/structure.png)
 * 2).在项目根目录下执行mvn archetype:create-from-projecct 生成archetype结构；
+     ![strcture2](doc/img/structure2.png)
      
 * 3).跳到项目根目录下的target\generated-sources\archetype目录，删除或修改必要的信息;
          
@@ -35,8 +35,9 @@
 
 
 查看本地的archetype 可以执行：  mvn archetype:generate -DarchetypeCatalog=local   
-     
+![consleinfo](doc/img/consoleinfo.png)
 
-官网的maven-archtype-plugin  ：
-https://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html
+
+**官网的maven-archtype-plugin  ：**
+[maven-archtype-plugin](https://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html)
 
